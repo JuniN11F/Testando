@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Qual personagem da Sanrio você é? 🎀</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <div class="container">
+        <h2>Descubra qual personagem da Sanrio você é! 🎀</h2>
+
+        <div class="quiz">
+            <label>1️⃣ Qual é o seu lanche favorito?</label>
+            <select id="food">
+                <option value="doces">Doces 🍰</option>
+                <option value="salgados">Salgados 🍕</option>
+                <option value="sorvete">Sorvete 🍦</option>
+            </select>
+
+            <label>2️⃣ O que você prefere fazer no tempo livre?</label>
+            <select id="hobby">
+                <option value="dormir">Dormir 😴</option>
+                <option value="socializar">Ficar com amigos 💖</option>
+                <option value="aventura">Aventuras 🌟</option>
+            </select>
+
+            <label>3️⃣ Como você se sente geralmente?</label>
+            <select id="mood">
+                <option value="fofa">Fofa e tranquila 🥰</option>
+                <option value="caos">Caótica e engraçada 😈</option>
+                <option value="seria">Séria e confiável 🤨</option>
+            </select>
+
+            <label>4️⃣ Qual cor te representa mais?</label>
+            <select id="color">
+                <option value="rosa">Rosa 💖</option>
+                <option value="preto">Preto 🖤</option>
+                <option value="amarelo">Amarelo 💛</option>
+                <option value="azul">Azul 💙</option>
+            </select>
+
+            <label>5️⃣ Qual poder você gostaria de ter?</label>
+            <select id="power">
+                <option value="voar">Voar 🦋</option>
+                <option value="invisibilidade">Ficar invisível 👻</option>
+                <option value="força">Força extraordinária 💪</option>
+                <option value="curar">Curar pessoas 💖</option>
+            </select>
+
+            <label>6️⃣ Qual é o seu animal favorito?</label>
+            <select id="animal">
+                <option value="gato">Gato 🐱</option>
+                <option value="cachorro">Cachorro 🐶</option>
+                <option value="coelho">Coelho 🐰</option>
+                <option value="pássaro">Pássaro 🦜</option>
+            </select>
+
+            <label>7️⃣ Como você reage quando está nervosa?</label>
+            <select id="reaction">
+                <option value="calma">Fico calma e tento resolver 😊</option>
+                <option value="rebelde">Fico um pouco rebelde 😜</option>
+                <option value="quieta">Fico bem quietinha e sumo 🧘‍♀️</option>
+                <option value="agitada">Fico muito agitada e falante 😅</option>
+            </select>
+
+            <label>8️⃣ Qual estilo de roupa você mais gosta?</label>
+            <select id="style">
+                <option value="fofo">Roupas fofas e confortáveis 🌸</option>
+                <option value="rock">Roupas mais dark e descoladas 😈</option>
+                <option value="clássico">Roupas elegantes e clássicas 🎩</option>
+                <option value="relax">Roupas casuais e práticas 👚</option>
+            </select>
+
+            <button onclick="descobrirPersonagem()">Descobrir! 💖</button>
+        </div>
+
+        <p id="result"></p>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
